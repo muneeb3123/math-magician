@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🎬 FilmFussion <a name="about-project"></a>
+# 🎬 Math Magician <a name="about-project"></a>
 
-FilmFussion is a web-based platform that provides a comprehensive database of TV shows and movies. The website allows users to rate and comment on movies, share their opinions and recommendations, and interact with other members of the community.
+In this project i will create a calculator which perform mathematics operations.
 
 ## 🛠 Built With <a name="visual studio">HTML5</a>
 
