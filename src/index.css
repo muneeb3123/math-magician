@@ -3,12 +3,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #dfdede;
 }
 
 .calculator {
-  width: 300px;
+  width: 400px;
   height: 500px;
-  background-color: #c7c1c1;
+  background-color: #fff;
   padding: 30px;
   border-radius: 50px;
 }
@@ -17,17 +18,14 @@ body {
   display: flex;
   font-size: 30px;
   justify-content: flex-end;
-  background-color: #43434b;
+  background-color: #858694;
   padding: 20px;
-  border-radius: 20px;
   color: #fff;
-  margin-bottom: 20px;
 }
 
 .buttons {
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 
 .row {
@@ -36,9 +34,8 @@ body {
 }
 
 .silver {
-  width: 70px;
+  width: 100px;
   height: 70px;
-  border-radius: 40px;
   background-color: #e0e0e0;
   font-size: 20px;
 }
@@ -48,5 +45,5 @@ body {
 }
 
 .long {
-  width: 150px;
+  width: 200px;
 }
