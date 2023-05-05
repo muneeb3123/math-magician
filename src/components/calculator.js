@@ -1,80 +1,66 @@
-import React from 'react';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
+import Button from './button';
 
-function Calculator() {
+const Calculator = () => {
+  const initialState = {
+    total: null,
+    next: null,
+    operation: null,
+  };
+  const [calculatorState, setCalculatorState] = useState(initialState);
+
+  const handleClick = (buttonName) => {
+    setCalculatorState((prevState) => calculate(prevState, buttonName));
+  };
+
+  const displayValue = () => {
+    const { total, next, operation } = calculatorState;
+    if (operation && !next) {
+      return `${total || ''} ${operation}`;
+    }
+    if (next && operation) {
+      return `${total || ''} ${operation} ${next}`;
+    }
+    return next || total || '0';
+  };
+
   return (
     <div className="calculator">
-      <div className="display">0</div>
+      <input className="display" type="text" readOnly value={displayValue()} />
       <div className="buttons">
         <div className="row">
-          <button type="button" className="silver">
-            Ac
-          </button>
-          <button type="button" className="silver">
-            +/-
-          </button>
-          <button type="button" className="silver">
-            %
-          </button>
-          <button type="button" className="orange silver">
-            %
-          </button>
+          <Button value="AC" onClick={handleClick} />
+          <Button value="+/-" onClick={handleClick} />
+          <Button value="%" onClick={handleClick} />
+          <Button value="÷" operation onClick={handleClick} />
         </div>
         <div className="row">
-          <button type="button" className="silver">
-            7
-          </button>
-          <button type="button" className="silver">
-            8
-          </button>
-          <button type="button" className="silver">
-            9
-          </button>
-          <button type="button" className="orange silver">
-            X
-          </button>
+          <Button value="7" onClick={handleClick} />
+          <Button value="8" onClick={handleClick} />
+          <Button value="9" onClick={handleClick} />
+          <Button value="x" operation onClick={handleClick} />
         </div>
         <div className="row">
-          <button type="button" className="silver">
-            4
-          </button>
-          <button type="button" className="silver">
-            5
-          </button>
-          <button type="button" className="silver">
-            6
-          </button>
-          <button type="button" className="orange silver">
-            -
-          </button>
+          <Button value="4" onClick={handleClick} />
+          <Button value="5" onClick={handleClick} />
+          <Button value="6" onClick={handleClick} />
+          <Button value="-" operation onClick={handleClick} />
         </div>
         <div className="row">
-          <button type="button" className="silver">
-            1
-          </button>
-          <button type="button" className="silver">
-            2
-          </button>
-          <button type="button" className="silver">
-            3
-          </button>
-          <button type="button" className="orange silver">
-            +
-          </button>
+          <Button value="1" onClick={handleClick} />
+          <Button value="2" onClick={handleClick} />
+          <Button value="3" onClick={handleClick} />
+          <Button value="+" operation onClick={handleClick} />
         </div>
         <div className="row">
-          <button type="button" className="long silver">
-            0
-          </button>
-          <button type="button" className="silver">
-            .
-          </button>
-          <button type="button" className="orange silver">
-            =
-          </button>
+          <Button value="0" onClick={handleClick} />
+          <Button value="." onClick={handleClick} />
+          <Button value="=" operation onClick={handleClick} />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
