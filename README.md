@@ -50,8 +50,7 @@ In this project i will create a calculator which perform mathematics operations.
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="protfolio-project"></a>
- 
-N/A
+ https://celebrated-kulfi-3ec9a7.netlify.app/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
