@@ -3,7 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #dfdede;
+  background-color: #E6E6E6;
 }
 
 .calculator {
@@ -51,4 +51,18 @@ body {
 
 .button-0 {
   width: 147px;
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+  max-width: 359px;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
 }
