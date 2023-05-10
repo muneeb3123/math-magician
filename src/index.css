@@ -31,7 +31,7 @@ nav {
 }
 
 .web-name {
-  font-size: 24px;
+  font-size: 20px;
   color: white;
 }
 
@@ -40,7 +40,6 @@ nav {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  padding-top: 50px;
 }
 
 .heading {
@@ -163,7 +162,7 @@ ul {
     padding: 20px;
   }
 
-  .heading {
+  .home-heading {
     font-size: 24px;
   }
 
