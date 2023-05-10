@@ -26,37 +26,45 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <input className="display" type="text" readOnly value={displayValue()} />
-      <div className="buttons">
-        <div className="row">
-          <Button value="AC" onClick={handleClick} />
-          <Button value="+/-" onClick={handleClick} />
-          <Button value="%" onClick={handleClick} />
-          <Button value="÷" operation onClick={handleClick} />
-        </div>
-        <div className="row">
-          <Button value="7" onClick={handleClick} />
-          <Button value="8" onClick={handleClick} />
-          <Button value="9" onClick={handleClick} />
-          <Button value="x" operation onClick={handleClick} />
-        </div>
-        <div className="row">
-          <Button value="4" onClick={handleClick} />
-          <Button value="5" onClick={handleClick} />
-          <Button value="6" onClick={handleClick} />
-          <Button value="-" operation onClick={handleClick} />
-        </div>
-        <div className="row">
-          <Button value="1" onClick={handleClick} />
-          <Button value="2" onClick={handleClick} />
-          <Button value="3" onClick={handleClick} />
-          <Button value="+" operation onClick={handleClick} />
-        </div>
-        <div className="row">
-          <Button value="0" onClick={handleClick} />
-          <Button value="." onClick={handleClick} />
-          <Button value="=" operation onClick={handleClick} />
+    <div className="Main">
+      <h1 className="heading">Lets do some math!</h1>
+      <div className="calculator">
+        <input
+          className="display"
+          type="text"
+          readOnly
+          value={displayValue()}
+        />
+        <div className="buttons">
+          <div className="row">
+            <Button value="AC" onClick={handleClick} />
+            <Button value="+/-" onClick={handleClick} />
+            <Button value="%" onClick={handleClick} />
+            <Button value="÷" operation onClick={handleClick} />
+          </div>
+          <div className="row">
+            <Button value="7" onClick={handleClick} />
+            <Button value="8" onClick={handleClick} />
+            <Button value="9" onClick={handleClick} />
+            <Button value="x" operation onClick={handleClick} />
+          </div>
+          <div className="row">
+            <Button value="4" onClick={handleClick} />
+            <Button value="5" onClick={handleClick} />
+            <Button value="6" onClick={handleClick} />
+            <Button value="-" operation onClick={handleClick} />
+          </div>
+          <div className="row">
+            <Button value="1" onClick={handleClick} />
+            <Button value="2" onClick={handleClick} />
+            <Button value="3" onClick={handleClick} />
+            <Button value="+" operation onClick={handleClick} />
+          </div>
+          <div className="row">
+            <Button value="0" onClick={handleClick} />
+            <Button value="." onClick={handleClick} />
+            <Button value="=" operation onClick={handleClick} />
+          </div>
         </div>
       </div>
     </div>
