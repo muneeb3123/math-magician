@@ -120,43 +120,6 @@ nav {
   border-radius: 20px;
 }
 
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.box {
-  max-width: 800px;
-  padding: 40px;
-  text-align: center;
-  background-color: #f7e5f0;
-  border-radius: 20px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.home-heading {
-  font-size: 32px;
-  margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
-  background: linear-gradient(45deg, #ff1493, #ff0000); 
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 15px;
-  color: #333;
-}
-
-ul {
-  text-align: left;
-  margin-left: 30px;
-} */
-
 .container {
   display: flex;
   justify-content: center;
@@ -177,7 +140,7 @@ ul {
   font-size: 32px;
   margin-bottom: 20px;
   font-family: "Oswald", sans-serif;
-  background: linear-gradient(45deg, #ff1493, #ff0000);
+  background: linear-gradient(45deg, #ff1493, #f00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -224,14 +187,11 @@ ul {
 
   .quote-container {
     margin: 10% auto;
+    width: 550px;
   }
 
   .Links {
     font-size: 1.4rem;
-  }
-
-  .quote-container {
-    width: 550px;
   }
 }
 
