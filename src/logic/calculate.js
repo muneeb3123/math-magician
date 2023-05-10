@@ -31,7 +31,6 @@ export default function calculate(obj, buttonName) {
       if (obj.next && obj.next !== '0') {
         return { ...obj, next: obj.next + buttonName };
       }
-      console.log('just check');
       return { ...obj, next: buttonName };
     }
     // If there is no operation, update next and clear the value
