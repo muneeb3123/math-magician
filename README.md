@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🎬 FilmFussion <a name="about-project"></a>
+# 🎬 Math Magician <a name="about-project"></a>
 
-FilmFussion is a web-based platform that provides a comprehensive database of TV shows and movies. The website allows users to rate and comment on movies, share their opinions and recommendations, and interact with other members of the community.
+In this project i will create a calculator which perform mathematics operations.
 
 ## 🛠 Built With <a name="visual studio">HTML5</a>
 
@@ -40,18 +40,8 @@ FilmFussion is a web-based platform that provides a comprehensive database of TV
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 - **It has Calculator**
 - **perform Mathematics operations**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="protfolio-project"></a>
- 
-N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +59,7 @@ Step 1: if you don't have git installed on your machine you can download it from
 Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
 
 
-`git clone https://github.com/christianonoh/group-capstone-js.git`
+`https://github.com/muneeb3123/math-magician.git`
 
 Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
 
@@ -96,12 +86,6 @@ Step 2: Locate the folder where you cloned your project to and run commond on te
 - **Reset all**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 📼 Project Walkthrough <a name="project-walk"></a>
-
--N/A
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
