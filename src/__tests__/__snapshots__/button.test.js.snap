@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render a button with the provided value 1`] = `
+<button
+  class="silver button-5 calculator-button"
+  type="button"
+>
+  5
+</button>
+`;

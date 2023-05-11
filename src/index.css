@@ -86,14 +86,14 @@ nav {
   width: 56px;
   height: 55px;
   background-color: #eaeaea;
-  color: #333333;
+  color: #333;
   font-size: 20px;
   border-radius: 35px;
 }
 
 .calculator-button.operation {
-  background-color: #ffcc33;
-  color: #333333;
+  background-color: #fc3;
+  color: #333;
 }
 
 .button-0 {
@@ -141,14 +141,14 @@ nav {
   font-size: 32px;
   margin-bottom: 20px;
   font-family: "Oswald", sans-serif;
-  color: #003366;
+  color: #036;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #333333; /* Text color */
+  color: #333;
 }
 
 ul {
