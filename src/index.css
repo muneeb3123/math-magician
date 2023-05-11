@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f692ce, #e35aad);
+    background: linear-gradient(to right, #61a5c2, #2a5473);
 }
 
 nav {
@@ -9,7 +9,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(135deg, #ff6495, #ff4661);
+   background: linear-gradient(to right, #396285, #1e3147);
   font-family: "Rajdhani", sans-serif;
 }
 
@@ -54,7 +54,7 @@ nav {
 .calculator {
   width: 230px;
   height: 400px;
-  background-color: #fff;
+  background-color: #fcf6d8;
   padding: 30px;
   border-radius: 30px;
 }
@@ -85,13 +85,15 @@ nav {
 .silver {
   width: 56px;
   height: 55px;
-  background-color: #e0e0e0;
+  background-color: #eaeaea;
+  color: #333333;
   font-size: 20px;
   border-radius: 35px;
 }
 
 .calculator-button.operation {
-  background-color: orange;
+  background-color: #ffcc33;
+  color: #333333;
 }
 
 .button-0 {
@@ -112,7 +114,7 @@ nav {
 
 .quote-container {
   margin: 30% auto;
-  background-color: #eaf3ff;
+  background-color: #fcf6d8;
   width: 70%;
   padding: 40px 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -130,7 +132,7 @@ nav {
   max-width: 800px;
   padding: 40px;
   text-align: center;
-  background-color: #f7e5f0;
+  background-color: #faf7e9;
   border-radius: 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
@@ -139,16 +141,14 @@ nav {
   font-size: 32px;
   margin-bottom: 20px;
   font-family: "Oswald", sans-serif;
-  background: linear-gradient(45deg, #ff1493, #f00);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #003366;
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #333; /* Text color */
+  color: #333333;; /* Text color */
 }
 
 ul {
