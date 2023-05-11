@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-    background: linear-gradient(to right, #61a5c2, #2a5473);
+  background: linear-gradient(to right, #61a5c2, #2a5473);
 }
 
 nav {
@@ -9,7 +9,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-   background: linear-gradient(to right, #396285, #1e3147);
+  background: linear-gradient(to right, #396285, #1e3147);
   font-family: "Rajdhani", sans-serif;
 }
 
@@ -148,7 +148,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #333333;; /* Text color */
+  color: #333333; /* Text color */
 }
 
 ul {
@@ -163,7 +163,7 @@ ul {
   }
 
   .home-heading {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   .text {
