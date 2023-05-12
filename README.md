@@ -39,6 +39,12 @@ In this project i will create a calculator which perform mathematics operations.
 - CSS
 <!-- Features -->
 
+## 🚀 Live Demo <a name="protfolio-project"></a>
+ 
+https://cosmic-marigold-cfd2d9.netlify.app/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Key Features <a name="key-features"></a>
 - **It has Calculator**
 - **perform Mathematics operations**
