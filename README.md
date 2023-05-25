@@ -28,7 +28,7 @@
 
 # 🎬 Math Magician <a name="about-project"></a>
 
-In this project i will create a calculator which perform mathematics operations.
+In this project i will create a calculator which perform mathematics operations.A website with three dynamic pages. The home page extends a warm welcome, the calculator page empowers you to perform arithmetic operations effortlessly, and the quote page fetches random quotes using React and React Router. Experience the convenience of math calculations and immerse yourself in a world of inspiration. 
 
 ## 🛠 Built With <a name="visual studio">HTML5</a>
 
